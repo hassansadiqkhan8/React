@@ -1,9 +1,15 @@
-
+import Chai from "./chai"
 
 function App() {
 
   return (
-    <h1>React with Vite | Hassan Sadiq Khan</h1>
+
+    <>
+      <Chai />
+      <h1>Hello World</h1>
+      <p>I am in fragment</p>
+    </>
+
   )
 }
 
