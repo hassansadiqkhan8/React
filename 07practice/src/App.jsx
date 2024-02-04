@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import Card from './components/Card'
+import UserGreeting from './components/UserGreeting'
 
 
 function App() {
 
-
   return (
     <>
-      <Card/>
-      <Card/>
-      <Card/>
+      <UserGreeting isLoggedIn={false} username={"Hassan Sadiq Khan"} />
     </>
   )
 }
