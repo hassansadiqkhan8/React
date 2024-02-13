@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import UserGreeting from './components/UserGreeting'
+import StopWatch from './components/StopWatch'
 
 
 function App() {
 
   return (
     <>
-      <UserGreeting isLoggedIn={false} username={"Hassan Sadiq Khan"} />
+      <StopWatch />
     </>
   )
 }
